@@ -12,7 +12,6 @@ public class Main {
 		Escalonador escalonador;
 		PrintStream out;
 		int quantum = 0;
-		System.out.println("COMEÇANDO ");
 		try {
 			
 			File quantumFile = new File(System.getProperty("user.dir") + File.separator + "quantum.txt");

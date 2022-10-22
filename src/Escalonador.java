@@ -103,16 +103,11 @@ public class Escalonador {
 		calculaMediaInterrupcoes(nomeProcesso, qtdInstrucoes);
 	}
 	private void calculaMediaInterrupcoes(String nomeProcesso, int qtdInstrucoes){
-	//	System.out.println("INICIO CALCULA-MEDIA");
 		boolean inserirNovo =true;
 		if(mediaInterrupcoes.isEmpty() == false){
 
 		for(Interrupcoes media : mediaInterrupcoes){
 			if(media.nomeProcesso.equals(nomeProcesso) ){
-			//	System.out.println("\n \n--> PROCESSO REPETIDO");
-			//	System.out.println("TESTE equals: "+media.nomeProcesso.equals(nomeProcesso));
-			//	 System.out.println("NOME OBJETO:"+media.nomeProcesso);
-			//	 System.out.println("NOME TESTADO:"+nomeProcesso);
 				 media.atualizaValores(qtdInstrucoes);
 				 inserirNovo = false;
 				 break;	
@@ -120,27 +115,14 @@ public class Escalonador {
 			
 		}
 		if(inserirNovo == true){
-		//	System.out.println("--> PROCESSO NOVO");
-			
 		Interrupcoes in = new Interrupcoes(nomeProcesso,qtdInstrucoes);
-		
-		//System.out.println("nome ARQUIVO "+in.nomeProcesso);
-	
 		mediaInterrupcoes.add(in);
-		//System.out.println("--> INSERIDO \n \n");
-
-			
 		} else inserirNovo = true;
 
 
 	}else{
-			//System.out.println("--> INSERINDO PRIMEIRA MEDIA");
 			Interrupcoes in = new Interrupcoes(nomeProcesso,qtdInstrucoes);
-			
-			//System.out.println("nome ARQUIVO "+in.nomeProcesso);
-			
 			mediaInterrupcoes.add(in);
-			//System.out.println("--> INSERIDO  <--- \n");
 		} 
 	}
 
