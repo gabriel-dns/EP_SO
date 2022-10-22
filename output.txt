@@ -1,0 +1,1182 @@
+[TESTE-1, X=8, COM, COM, COM, E/S, Y=10, X=2, COM, E/S, SAIDA]
+[TESTE-2, X=8, COM, COM, COM, E/S, Y=10, X=2, COM, COM, E/S, COM, COM, COM, COM, E/S, X=3, X=9, Y=1, COM, COM, SAIDA]
+[TESTE-3, X=8, COM, COM, COM, Y=5, X=2, COM, COM, X=3, X=91, Y=10, COM, X=4, SAIDA]
+[TESTE-4, X=8, E/S, COM, E/S, Y=5, E/S, COM, E/S, X=3, X=91, E/S, SAIDA]
+[TESTE-5, X=8, E/S, COM, E/S, Y=5, E/S, COM, E/S, COM, E/S, SAIDA]
+[TESTE-6, X=8, COM, COM, E/S, Y=5, COM, COM, COM, COM, COM, E/S, COM, COM, E/S, SAIDA]
+[TESTE-7, X=8, COM, COM, E/S, Y=5, COM, X=10, X=12, Y=3, COM, COM, COM, E/S, SAIDA]
+[TESTE-8, X=8, COM, COM, Y=5, COM, X=10, X=12, Y=3, COM, COM, COM, COM, COM, COM, COM, COM, COM, COM, COM, X=1, SAIDA]
+[TESTE-9, COM, COM, E/S, COM, COM, COM, COM, COM, COM, COM, COM, COM, COM, E/S, SAIDA]
+[TESTE-10, COM, COM, COM, COM, E/S, SAIDA]
+
+Ordenando fila de prontos
+BCP [PID=7, programCounter=0, estado=PRONTO, prioridade=12, X=0, Y=0, Cr�ditos: 12, regiaoDeMemoria=@356573597]
+BCP [PID=4, programCounter=0, estado=PRONTO, prioridade=10, X=0, Y=0, Cr�ditos: 10, regiaoDeMemoria=@460141958]
+BCP [PID=8, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=7, programCounter = 1, prioridade = 12, Cr�ditos: 11]
+X=8
+
+Executando comando
+BCP [PID=7, programCounter = 2, prioridade = 12, Cr�ditos: 10]
+COM
+
+Executando comando
+BCP [PID=7, programCounter = 3, prioridade = 12, Cr�ditos: 9]
+COM
+
+Executando comando
+BCP [PID=7, programCounter = 4, prioridade = 12, Cr�ditos: 8]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=0, estado=PRONTO, prioridade=10, X=0, Y=0, Cr�ditos: 10, regiaoDeMemoria=@460141958]
+BCP [PID=8, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=7, programCounter=4, estado=BLOQUEADO, prioridade=12, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@356573597]
+
+Executando comando
+BCP [PID=4, programCounter = 1, prioridade = 10, Cr�ditos: 9]
+X=8
+
+Executando comando
+BCP [PID=4, programCounter = 2, prioridade = 10, Cr�ditos: 8]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=8, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=7, programCounter=4, estado=BLOQUEADO, prioridade=12, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@356573597]
+BCP [PID=4, programCounter=2, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=8, programCounter = 1, prioridade = 8, Cr�ditos: 7]
+X=8
+
+Executando comando
+BCP [PID=8, programCounter = 2, prioridade = 8, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 3, prioridade = 8, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 4, prioridade = 8, Cr�ditos: 4]
+Y=5
+
+Executando comando
+BCP [PID=8, programCounter = 5, prioridade = 8, Cr�ditos: 3]
+COM
+Fim do quantum
+
+Ordenando fila de prontos
+BCP [PID=9, programCounter=0, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=7, programCounter=4, estado=BLOQUEADO, prioridade=12, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@356573597]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=4, programCounter=2, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=9, programCounter = 1, prioridade = 8, Cr�ditos: 7]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 2, prioridade = 8, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 3, prioridade = 8, Cr�ditos: 5]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=7, programCounter=4, estado=BLOQUEADO, prioridade=12, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@356573597]
+BCP [PID=4, programCounter=2, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@460141958]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=9, programCounter=3, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 5, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=7, programCounter = 5, prioridade = 12, Cr�ditos: 7]
+Y=5
+
+Executando comando
+BCP [PID=7, programCounter = 6, prioridade = 12, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=7, programCounter = 7, prioridade = 12, Cr�ditos: 5]
+X=10
+
+Executando comando
+BCP [PID=7, programCounter = 8, prioridade = 12, Cr�ditos: 4]
+X=12
+
+Executando comando
+BCP [PID=7, programCounter = 9, prioridade = 12, Cr�ditos: 3]
+Y=3
+Fim do quantum
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=2, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 8, regiaoDeMemoria=@460141958]
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=9, programCounter=3, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 5, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=4, programCounter = 3, prioridade = 10, Cr�ditos: 7]
+COM
+
+Executando comando
+BCP [PID=4, programCounter = 4, prioridade = 10, Cr�ditos: 6]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=0, estado=PRONTO, prioridade=6, X=0, Y=0, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=9, programCounter=3, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 5, regiaoDeMemoria=@21685669]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=4, programCounter=4, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 6, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=6, programCounter = 1, prioridade = 6, Cr�ditos: 5]
+X=8
+
+Executando comando
+BCP [PID=6, programCounter = 2, prioridade = 6, Cr�ditos: 4]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 3, prioridade = 6, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 4, prioridade = 6, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=9, programCounter=3, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 5, regiaoDeMemoria=@21685669]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=4, programCounter=4, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 6, regiaoDeMemoria=@460141958]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+
+Executando comando
+BCP [PID=9, programCounter = 4, prioridade = 8, Cr�ditos: 4]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 5, prioridade = 8, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 6, prioridade = 8, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 7, prioridade = 8, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 8, prioridade = 8, Cr�ditos: 0]
+COM
+Fim do quantum
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=4, estado=BLOQUEADO, prioridade=10, X=8, Y=0, Cr�ditos: 6, regiaoDeMemoria=@460141958]
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+
+Executando comando
+BCP [PID=4, programCounter = 5, prioridade = 10, Cr�ditos: 5]
+Y=5
+
+Executando comando
+BCP [PID=4, programCounter = 6, prioridade = 10, Cr�ditos: 4]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=4, programCounter=6, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=5, programCounter = 1, prioridade = 4, Cr�ditos: 3]
+X=8
+
+Executando comando
+BCP [PID=5, programCounter = 2, prioridade = 4, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=10, programCounter=0, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=4, programCounter=6, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@460141958]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=10, programCounter = 1, prioridade = 4, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=10, programCounter = 2, prioridade = 4, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=10, programCounter = 3, prioridade = 4, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=10, programCounter = 4, prioridade = 4, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=6, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@460141958]
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=4, programCounter = 7, prioridade = 10, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=4, programCounter = 8, prioridade = 10, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=7, programCounter=9, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@356573597]
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=7, programCounter = 10, prioridade = 12, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=7, programCounter = 11, prioridade = 12, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=7, programCounter = 12, prioridade = 12, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=8, programCounter=5, estado=PRONTO, prioridade=8, X=8, Y=5, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=8, programCounter = 6, prioridade = 8, Cr�ditos: 2]
+X=10
+
+Executando comando
+BCP [PID=8, programCounter = 7, prioridade = 8, Cr�ditos: 1]
+X=12
+
+Executando comando
+BCP [PID=8, programCounter = 8, prioridade = 8, Cr�ditos: 0]
+Y=3
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=0, estado=PRONTO, prioridade=3, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=2, programCounter = 1, prioridade = 3, Cr�ditos: 2]
+X=8
+
+Executando comando
+BCP [PID=2, programCounter = 2, prioridade = 3, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 3, prioridade = 3, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=0, estado=PRONTO, prioridade=2, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=3, programCounter = 1, prioridade = 2, Cr�ditos: 1]
+X=8
+
+Executando comando
+BCP [PID=3, programCounter = 2, prioridade = 2, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=4, estado=BLOQUEADO, prioridade=6, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=6, programCounter = 5, prioridade = 6, Cr�ditos: 1]
+Y=5
+
+Executando comando
+BCP [PID=6, programCounter = 6, prioridade = 6, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=2, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1956725890]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=5, programCounter = 3, prioridade = 4, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=5, programCounter = 4, prioridade = 4, Cr�ditos: 0]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=8, estado=BLOQUEADO, prioridade=10, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@460141958]
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1956725890]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=4, programCounter = 9, prioridade = 10, Cr�ditos: 1]
+X=3
+
+Executando comando
+BCP [PID=4, programCounter = 10, prioridade = 10, Cr�ditos: 0]
+X=91
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=0, estado=PRONTO, prioridade=1, X=0, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=4, programCounter=10, estado=PRONTO, prioridade=10, X=91, Y=5, Cr�ditos: 0, regiaoDeMemoria=@460141958]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1956725890]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@356573597]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@2133927002]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 0, regiaoDeMemoria=@21685669]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=1, programCounter = 1, prioridade = 1, Cr�ditos: 0]
+X=8
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=7, programCounter=12, estado=PRONTO, prioridade=12, X=12, Y=3, Cr�ditos: 12, regiaoDeMemoria=@356573597]
+BCP [PID=4, programCounter=10, estado=PRONTO, prioridade=10, X=91, Y=5, Cr�ditos: 10, regiaoDeMemoria=@460141958]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=7, programCounter = 13, prioridade = 12, Cr�ditos: 11]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=10, estado=PRONTO, prioridade=10, X=91, Y=5, Cr�ditos: 10, regiaoDeMemoria=@460141958]
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=7, programCounter=13, estado=BLOQUEADO, prioridade=12, X=12, Y=3, Cr�ditos: 11, regiaoDeMemoria=@356573597]
+
+Executando comando
+BCP [PID=4, programCounter = 11, prioridade = 10, Cr�ditos: 9]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=8, programCounter=8, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=7, programCounter=13, estado=BLOQUEADO, prioridade=12, X=12, Y=3, Cr�ditos: 11, regiaoDeMemoria=@356573597]
+BCP [PID=4, programCounter=11, estado=BLOQUEADO, prioridade=10, X=91, Y=5, Cr�ditos: 9, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=8, programCounter = 9, prioridade = 8, Cr�ditos: 7]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 10, prioridade = 8, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 11, prioridade = 8, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 12, prioridade = 8, Cr�ditos: 4]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 13, prioridade = 8, Cr�ditos: 3]
+COM
+Fim do quantum
+
+Ordenando fila de prontos
+BCP [PID=7, programCounter=13, estado=BLOQUEADO, prioridade=12, X=12, Y=3, Cr�ditos: 11, regiaoDeMemoria=@356573597]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=4, programCounter=11, estado=BLOQUEADO, prioridade=10, X=91, Y=5, Cr�ditos: 9, regiaoDeMemoria=@460141958]
+
+Executando comando
+BCP [PID=7, programCounter = 14, prioridade = 12, Cr�ditos: 10]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=4, programCounter=11, estado=BLOQUEADO, prioridade=10, X=91, Y=5, Cr�ditos: 9, regiaoDeMemoria=@460141958]
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=4, programCounter = 12, prioridade = 10, Cr�ditos: 8]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=9, programCounter=8, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 8, regiaoDeMemoria=@21685669]
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=9, programCounter = 9, prioridade = 8, Cr�ditos: 7]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 10, prioridade = 8, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 11, prioridade = 8, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 12, prioridade = 8, Cr�ditos: 4]
+COM
+
+Executando comando
+BCP [PID=9, programCounter = 13, prioridade = 8, Cr�ditos: 3]
+COM
+Fim do quantum
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=6, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=13, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@21685669]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=6, programCounter = 7, prioridade = 6, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 8, prioridade = 6, Cr�ditos: 4]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 9, prioridade = 6, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 10, prioridade = 6, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 11, prioridade = 6, Cr�ditos: 1]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=10, programCounter=4, estado=PRONTO, prioridade=4, X=0, Y=0, Cr�ditos: 4, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=13, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@21685669]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+
+Executando comando
+BCP [PID=10, programCounter = 5, prioridade = 4, Cr�ditos: 3]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=4, estado=BLOQUEADO, prioridade=4, X=8, Y=0, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=13, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@21685669]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=5, estado=BLOQUEADO, prioridade=4, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2133927002]
+
+Executando comando
+BCP [PID=5, programCounter = 5, prioridade = 4, Cr�ditos: 3]
+Y=5
+
+Executando comando
+BCP [PID=5, programCounter = 6, prioridade = 4, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=9, programCounter=13, estado=PRONTO, prioridade=8, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@21685669]
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=10, programCounter=5, estado=BLOQUEADO, prioridade=4, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2133927002]
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=9, programCounter = 14, prioridade = 8, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=8, programCounter=13, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 3, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=10, programCounter=5, estado=BLOQUEADO, prioridade=4, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2133927002]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=8, programCounter = 14, prioridade = 8, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 15, prioridade = 8, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 16, prioridade = 8, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=3, estado=PRONTO, prioridade=3, X=8, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=10, programCounter=5, estado=BLOQUEADO, prioridade=4, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2133927002]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+
+Executando comando
+BCP [PID=2, programCounter = 4, prioridade = 3, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 5, prioridade = 3, Cr�ditos: 1]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=10, programCounter=5, estado=BLOQUEADO, prioridade=4, X=0, Y=0, Cr�ditos: 3, regiaoDeMemoria=@2133927002]
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=10, programCounter = 6, prioridade = 4, Cr�ditos: 2]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=2, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=3, programCounter = 3, prioridade = 2, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=3, programCounter = 4, prioridade = 2, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=6, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+
+Executando comando
+BCP [PID=5, programCounter = 7, prioridade = 4, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=5, programCounter = 8, prioridade = 4, Cr�ditos: 0]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=9, programCounter=14, estado=BLOQUEADO, prioridade=8, X=0, Y=0, Cr�ditos: 2, regiaoDeMemoria=@21685669]
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=9, programCounter = 15, prioridade = 8, Cr�ditos: 1]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=1, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=1, programCounter = 2, prioridade = 1, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=11, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 1, regiaoDeMemoria=@1956725890]
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=6, programCounter = 12, prioridade = 6, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=5, estado=BLOQUEADO, prioridade=3, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@2101973421]
+BCP [PID=6, programCounter=12, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1956725890]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 0, regiaoDeMemoria=@1735600054]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 0, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=2, programCounter = 6, prioridade = 3, Cr�ditos: 0]
+Y=10
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=8, programCounter=16, estado=PRONTO, prioridade=8, X=12, Y=3, Cr�ditos: 8, regiaoDeMemoria=@1735600054]
+BCP [PID=6, programCounter=12, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=6, estado=PRONTO, prioridade=3, X=8, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=8, programCounter = 17, prioridade = 8, Cr�ditos: 7]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 18, prioridade = 8, Cr�ditos: 6]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 19, prioridade = 8, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=8, programCounter = 20, prioridade = 8, Cr�ditos: 4]
+X=1
+
+Executando comando
+BCP [PID=8, programCounter = 21, prioridade = 8, Cr�ditos: 3]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=12, estado=PRONTO, prioridade=6, X=8, Y=5, Cr�ditos: 6, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=6, estado=PRONTO, prioridade=3, X=8, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=6, programCounter = 13, prioridade = 6, Cr�ditos: 5]
+COM
+
+Executando comando
+BCP [PID=6, programCounter = 14, prioridade = 6, Cr�ditos: 4]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=8, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1163157884]
+BCP [PID=2, programCounter=6, estado=PRONTO, prioridade=3, X=8, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=14, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1956725890]
+
+Executando comando
+BCP [PID=5, programCounter = 9, prioridade = 4, Cr�ditos: 3]
+COM
+
+Executando comando
+BCP [PID=5, programCounter = 10, prioridade = 4, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=6, estado=PRONTO, prioridade=3, X=8, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=6, programCounter=14, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1956725890]
+BCP [PID=5, programCounter=10, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=2, programCounter = 7, prioridade = 3, Cr�ditos: 2]
+X=2
+
+Executando comando
+BCP [PID=2, programCounter = 8, prioridade = 3, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 9, prioridade = 3, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=6, programCounter=14, estado=BLOQUEADO, prioridade=6, X=8, Y=5, Cr�ditos: 4, regiaoDeMemoria=@1956725890]
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=2, programCounter=9, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=5, programCounter=10, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+
+Executando comando
+BCP [PID=6, programCounter = 15, prioridade = 6, Cr�ditos: 3]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=4, estado=PRONTO, prioridade=2, X=8, Y=0, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=5, programCounter=10, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=2, programCounter=9, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=3, programCounter = 5, prioridade = 2, Cr�ditos: 1]
+Y=5
+
+Executando comando
+BCP [PID=3, programCounter = 6, prioridade = 2, Cr�ditos: 0]
+X=2
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=5, programCounter=10, estado=BLOQUEADO, prioridade=4, X=8, Y=5, Cr�ditos: 2, regiaoDeMemoria=@1163157884]
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=6, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=9, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=5, programCounter = 11, prioridade = 4, Cr�ditos: 1]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=2, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=6, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=9, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=1, programCounter = 3, prioridade = 1, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=9, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=6, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=3, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=2, programCounter = 10, prioridade = 3, Cr�ditos: 2]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=6, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=3, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=2, programCounter=10, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 2, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=3, programCounter = 7, prioridade = 2, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=3, programCounter = 8, prioridade = 2, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=3, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=8, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=10, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 2, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=1, programCounter = 4, prioridade = 1, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=10, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 2, regiaoDeMemoria=@2101973421]
+BCP [PID=1, programCounter=4, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=8, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+
+Executando comando
+BCP [PID=2, programCounter = 11, prioridade = 3, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 12, prioridade = 3, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=12, estado=PRONTO, prioridade=3, X=2, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=8, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=4, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=2, programCounter = 13, prioridade = 3, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 14, prioridade = 3, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 15, prioridade = 3, Cr�ditos: 0]
+E/S
+Processo bloqueado
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=8, estado=PRONTO, prioridade=2, X=2, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=4, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=2, programCounter=15, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=3, programCounter = 9, prioridade = 2, Cr�ditos: 1]
+X=3
+
+Executando comando
+BCP [PID=3, programCounter = 10, prioridade = 2, Cr�ditos: 0]
+X=91
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=4, estado=PRONTO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+BCP [PID=3, programCounter=10, estado=PRONTO, prioridade=2, X=91, Y=5, Cr�ditos: 0, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=15, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+
+Executando comando
+BCP [PID=1, programCounter = 5, prioridade = 1, Cr�ditos: 0]
+E/S
+Processo bloqueado
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=15, estado=BLOQUEADO, prioridade=3, X=2, Y=10, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=10, estado=PRONTO, prioridade=2, X=91, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=5, estado=BLOQUEADO, prioridade=1, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=2, programCounter = 16, prioridade = 3, Cr�ditos: 2]
+X=3
+
+Executando comando
+BCP [PID=2, programCounter = 17, prioridade = 3, Cr�ditos: 1]
+X=9
+
+Executando comando
+BCP [PID=2, programCounter = 18, prioridade = 3, Cr�ditos: 0]
+Y=1
+Fim dos cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=10, estado=PRONTO, prioridade=2, X=91, Y=5, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=2, programCounter=18, estado=PRONTO, prioridade=3, X=9, Y=1, Cr�ditos: 0, regiaoDeMemoria=@2101973421]
+BCP [PID=1, programCounter=5, estado=BLOQUEADO, prioridade=1, X=8, Y=0, Cr�ditos: 0, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=3, programCounter = 11, prioridade = 2, Cr�ditos: 1]
+Y=10
+
+Executando comando
+BCP [PID=3, programCounter = 12, prioridade = 2, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=2, programCounter=18, estado=PRONTO, prioridade=3, X=9, Y=1, Cr�ditos: 3, regiaoDeMemoria=@2101973421]
+BCP [PID=3, programCounter=12, estado=PRONTO, prioridade=2, X=91, Y=10, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=5, estado=BLOQUEADO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=2, programCounter = 19, prioridade = 3, Cr�ditos: 2]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 20, prioridade = 3, Cr�ditos: 1]
+COM
+
+Executando comando
+BCP [PID=2, programCounter = 21, prioridade = 3, Cr�ditos: 0]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=3, programCounter=12, estado=PRONTO, prioridade=2, X=91, Y=10, Cr�ditos: 2, regiaoDeMemoria=@685325104]
+BCP [PID=1, programCounter=5, estado=BLOQUEADO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=3, programCounter = 13, prioridade = 2, Cr�ditos: 1]
+X=4
+
+Executando comando
+BCP [PID=3, programCounter = 14, prioridade = 2, Cr�ditos: 0]
+SAIDA
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=5, estado=BLOQUEADO, prioridade=1, X=8, Y=0, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=1, programCounter = 6, prioridade = 1, Cr�ditos: 0]
+Y=10
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=6, estado=PRONTO, prioridade=1, X=8, Y=10, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=1, programCounter = 7, prioridade = 1, Cr�ditos: 0]
+X=2
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=7, estado=PRONTO, prioridade=1, X=2, Y=10, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=1, programCounter = 8, prioridade = 1, Cr�ditos: 0]
+COM
+Fim dos cr�ditos
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=8, estado=PRONTO, prioridade=1, X=2, Y=10, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=1, programCounter = 9, prioridade = 1, Cr�ditos: 0]
+E/S
+Processo bloqueado
+Redistribuindo cr�ditos
+
+Ordenando fila de prontos
+BCP [PID=1, programCounter=9, estado=BLOQUEADO, prioridade=1, X=2, Y=10, Cr�ditos: 1, regiaoDeMemoria=@366712642]
+
+Executando comando
+BCP [PID=1, programCounter = 10, prioridade = 1, Cr�ditos: 0]
+SAIDA
+Escalonador finalizado

@@ -1,0 +1,382 @@
+Executando TESTE-7
+X=8
+COM
+COM
+Interrompendo TESTE-7 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-4
+X=8
+E/S
+E/S iniciada em TESTE-4
+Interrompendo TESTE-4 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-7
+E/S
+E/S iniciada em TESTE-7
+Interrompendo TESTE-7 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-8
+X=8
+COM
+COM
+Interrompendo TESTE-8 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-9
+COM
+COM
+E/S
+E/S iniciada em TESTE-9
+Interrompendo TESTE-9 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-4
+COM
+E/S
+E/S iniciada em TESTE-4
+Interrompendo TESTE-4 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-7
+Y=5
+COM
+X=10
+Interrompendo TESTE-7 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-6
+X=8
+COM
+COM
+Interrompendo TESTE-6 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-4
+Y=5
+E/S
+E/S iniciada em TESTE-4
+Interrompendo TESTE-4 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-7
+X=12
+Y=3
+COM
+Interrompendo TESTE-7 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-8
+Y=5
+COM
+X=10
+Interrompendo TESTE-8 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-9
+COM
+COM
+COM
+Interrompendo TESTE-9 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-5
+X=8
+E/S
+E/S iniciada em TESTE-5
+Interrompendo TESTE-5 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-10
+COM
+COM
+COM
+Interrompendo TESTE-10 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-4
+COM
+E/S
+E/S iniciada em TESTE-4
+Interrompendo TESTE-4 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-6
+E/S
+E/S iniciada em TESTE-6
+Interrompendo TESTE-6 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-2
+X=8
+COM
+COM
+Interrompendo TESTE-2 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-9
+COM
+COM
+Interrompendo TESTE-9 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-8
+X=12
+Y=3
+Interrompendo TESTE-8 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-7
+COM
+COM
+Interrompendo TESTE-7 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-3
+X=8
+COM
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-5
+COM
+E/S
+E/S iniciada em TESTE-5
+Interrompendo TESTE-5 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-4
+X=3
+X=91
+Interrompendo TESTE-4 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-6
+Y=5
+COM
+Interrompendo TESTE-6 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-10
+COM
+Interrompendo TESTE-10 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-1
+X=8
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-7
+E/S
+E/S iniciada em TESTE-7
+Interrompendo TESTE-7 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-4
+E/S
+E/S iniciada em TESTE-4
+Interrompendo TESTE-4 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-8
+COM
+COM
+COM
+Interrompendo TESTE-8 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-7
+SAIDA
+TESTE-7 terminado. X=12 Y=3
+Executando TESTE-4
+SAIDA
+TESTE-4 terminado. X=91 Y=5
+Executando TESTE-9
+COM
+COM
+COM
+Interrompendo TESTE-9 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-6
+COM
+COM
+COM
+Interrompendo TESTE-6 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-9
+COM
+COM
+E/S
+E/S iniciada em TESTE-9
+Interrompendo TESTE-9 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-8
+COM
+COM
+COM
+Interrompendo TESTE-8 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-10
+E/S
+E/S iniciada em TESTE-10
+Interrompendo TESTE-10 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-5
+Y=5
+E/S
+E/S iniciada em TESTE-5
+Interrompendo TESTE-5 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-6
+COM
+E/S
+E/S iniciada em TESTE-6
+Interrompendo TESTE-6 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-2
+COM
+E/S
+E/S iniciada em TESTE-2
+Interrompendo TESTE-2 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-10
+SAIDA
+TESTE-10 terminado. X=0 Y=0
+Executando TESTE-8
+COM
+COM
+Interrompendo TESTE-8 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-3
+COM
+COM
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-9
+SAIDA
+TESTE-9 terminado. X=0 Y=0
+Executando TESTE-5
+COM
+E/S
+E/S iniciada em TESTE-5
+Interrompendo TESTE-5 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-1
+COM
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-6
+COM
+Interrompendo TESTE-6 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-2
+Y=10
+Interrompendo TESTE-2 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-8
+COM
+COM
+COM
+Interrompendo TESTE-8 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-6
+COM
+E/S
+E/S iniciada em TESTE-6
+Interrompendo TESTE-6 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-8
+X=1
+SAIDA
+TESTE-8 terminado. X=1 Y=3
+Executando TESTE-5
+COM
+E/S
+E/S iniciada em TESTE-5
+Interrompendo TESTE-5 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-6
+SAIDA
+TESTE-6 terminado. X=8 Y=5
+Executando TESTE-2
+X=2
+COM
+COM
+Interrompendo TESTE-2 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-3
+Y=5
+X=2
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-5
+SAIDA
+TESTE-5 terminado. X=8 Y=5
+Executando TESTE-1
+COM
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-2
+E/S
+E/S iniciada em TESTE-2
+Interrompendo TESTE-2 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-3
+COM
+COM
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-1
+COM
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-2
+COM
+COM
+Interrompendo TESTE-2 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-2
+COM
+COM
+E/S
+E/S iniciada em TESTE-2
+Interrompendo TESTE-2 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-3
+X=3
+X=91
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-1
+E/S
+E/S iniciada em TESTE-1
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-2
+X=3
+X=9
+Y=1
+Interrompendo TESTE-2 apos 3 instru??es
+Media de Instrucoes executadas por quantum 1.0
+Executando TESTE-3
+Y=10
+COM
+Interrompendo TESTE-3 apos 2 instru??es
+Media de Instrucoes executadas por quantum 0.6666667
+Executando TESTE-2
+COM
+COM
+SAIDA
+TESTE-2 terminado. X=9 Y=1
+Executando TESTE-3
+X=4
+SAIDA
+TESTE-3 terminado. X=4 Y=10
+Executando TESTE-1
+Y=10
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-1
+X=2
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-1
+COM
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-1
+E/S
+E/S iniciada em TESTE-1
+Interrompendo TESTE-1 apos 1 instru??o
+Media de Instrucoes executadas por quantum 0.33333334
+Executando TESTE-1
+SAIDA
+TESTE-1 terminado. X=2 Y=10
+--> IMPRESSAO MEDIAS <--
+Media de interrupcoes do TESTE-7 e de:   2.1666667
+Media de interrupcoes do TESTE-4 e de:   1.8333334
+Media de interrupcoes do TESTE-8 e de:   2.7142856
+Media de interrupcoes do TESTE-9 e de:   2.8
+Media de interrupcoes do TESTE-6 e de:   2.0
+Media de interrupcoes do TESTE-5 e de:   2.0
+Media de interrupcoes do TESTE-10 e de:   1.6666666
+Media de interrupcoes do TESTE-2 e de:   2.25
+Media de interrupcoes do TESTE-3 e de:   2.0
+Media de interrupcoes do TESTE-1 e de:   1.0
+Media (geral) de interrupcoes de processos: 2.0430954
+Numero medio (geral) de instrucoes executadas por quantum: 0.6720429
+QUANTUM: 3
